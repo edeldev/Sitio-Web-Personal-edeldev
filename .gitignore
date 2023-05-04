@@ -1,0 +1,9 @@
+src/
+node_modules/
+build/css/app.css
+bootstrap.bundle.min.js.map
+build/js/confetti.js
+build/js/confetti.min.js
+gulpfile.js
+package.json
+package-lock.json

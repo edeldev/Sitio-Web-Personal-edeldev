@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edeldev | Portafolio</title>
+
+    <link rel="shortcut icon" href="build/img/favicon-edel.ico" type="image/x-icon">
+    <!-- Font Inter -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- LIBRERIA typed.js -->
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <!-- confetti -->
+   <script src="build/js/confetti.js"></script>
+</head>
+<body>
+    
+
+    <!-- Linea vertical -->
+<span class="linea d-none d-md-block"></span>
+
+<!-- Icono Whatsapp -->
+<div class="whatsapp">
+    <i class="bi bi-whatsapp fs-1 text-success"></i>
+</div>
+
+<div class="menu2">
+    <nav>
+        <p class="close">X</p>
+        <a href="#welcome" style="animation-delay: 0.1s" onclick="closeMenu()">Welcome</a>
+        <a href="#sobre-mi" style="animation-delay: 0.2s" onclick="closeMenu()">Sobre mí</a>
+        <a href="#proyectos" style="animation-delay: 0.3s" onclick="closeMenu()">Proyectos</a>
+    </nav>
+</div>
+
+<!-- ****** MOBILE ****** -->
+<!-- Logo Mobile -->
+<div class="logo-mobile container-fluid px-4 d-flex justify-content-start align-items-center">
+    <img src="build/img/LOGO-ICONO-PROGRAMACION-DARK.png" alt="logo" class="d-block d-md-none">
+</div>
+
+
+<!-- Menu Lateral Izquierdo -->
+
+<section class="container-fluid d-none d-md-block">
+    <div class="logo">
+        <img src="build/img/LOGO-ICONO-PROGRAMACION-DARK.png" alt="logo">
+    </div>
+    <div class="rotar">
+        <h2 class="fs-5 rotar">WELCOME</h2>
+    </div>
+        <div class="social-media">
+            <i class="bi bi-github fs-3"></i>
+            <i class="bi bi-facebook fs-3"></i>
+             <i class="bi bi-instagram fs-3"></i>
+             <i class="bi bi-youtube fs-3"></i>
+         </div>
+</section>
+
+<!-- Navegador Iconos Menu-->
+
+<nav class="container-fluid py-0 py-md-3 px-4" id="welcome">
+    <div class="nav d-flex justify-content-end align-items-center">
+        <div class="menu d-flex align-items-center">
+            <div class="switch d-flex gap-4 align-items-center p-1" id="switch">
+                <span>
+                    <i class="bi bi-sun fs-5 color"></i>
+                </span>
+                <span>
+                    <i class="bi bi-moon fs-5"></i>
+                </span>
+            </div>
+            <i class="bi bi-list fs-3 ms-3" id="menuToggle"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Container -->
+<section class="hero container-xl py-4">
+    <!-- Welcome Mobile -->
+<div class="mobile">
+    <p class="d-block d-md-none text-center fw-normal pb-3">WELCOME</p>
+</div>
+
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <div class="circle">
+            <div class="dot" id="dot"></div>
+            <div class="outer">
+                <div class="imagen-personal inner pt-3">
+                    <img class="img-fluid" src="build/img/edeldev-foto.png" alt="foto-personal">
+                    <h2 class="welcome">¡BIENVENIDO!</h2>
+                </div>
+                <tool-tip role="tooltip" class="tool">Hola, da click</tool-tip>
+            </div>
+        </div>
+        <h1 class="pt-4">Edel Ballesteros</h1>
+        <h5>Desarrollador Front-end</h5>
+        <div class="logo-programacion">
+            <img class="img-fluid" src="build/img/logo-programacion.png" alt="logo-edeldev">
+        </div>
+        <a href="#sobre-mi" class="triangulo"></a>
+    </div>
+</section>
+
+<div class="listo">
+    <p class="close2">X</p>
+    <h2>¿LISTO?</h2>
+    <p>Para comenzar una aventura inolvidable.</p>
+    <a href="blog.html">CLICK AQUÍ</a>
+</div>
+
+<!-- *** SOBRE MI *** -->
+<section class="container-xl py-4 mt-5 sobre-mi text-center" id="sobre-mi">
+    <!-- Sobre Mi  Mobile -->
+<div class="mobile">
+    <p class="d-block d-md-none text-center fw-normal">SOBRE MÍ</p>
+</div>
+
+    <h2 class="pb-3">¡VEN!, Conóceme</h2>
+    <p class="texto-sobre-mi"><strong>¿Buscas un desarrollador web para tu proyecto?</strong> <br> Soy un apasionado del diseño y la programación web por lo cual me decidí por estudiar Ingeniero Administrador de Sistemas con especialización en Desarrollo Web. <br> <strong>Mi principal objetivo es:</strong></p>
+
+    <div class="row justify-content-center align-items-start pt-4 info text-start">
+        <div class="col-md-5">
+            <ul class="d-flex flex-column justify-content-center align-items-center">
+                <li class="pb-2">Ayudarte a crear un sitio web único, atractivo y funcional que se adapte a tus necesidades y presupuesto.</li>
+                <li>Entregar tu sitio web en un tiempo récord, sin comprometer la calidad del trabajo. Además de tener una buena relación profesional ¡Aqui estoy para ayudarte!</li>
+            </ul>
+        </div>
+
+        <div class="col-md-5">
+            <ul class="d-flex flex-column justify-content-center align-items-center">
+                <li class="pb-2">Que cuente con los actuales estandares de diseño y tecnología.</li>
+                <li>Ayudarte a atraer a más clientes, aumentar las ventas y mejorar la visibilidad de tu negocio. Al tener una presencia en línea, tu negocio se vuelve más accesible y visible para aquellos que buscan tus productos o servicios en línea.</li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="row flex-column flex-md-row justify-content-center align-items-center pt-4">
+            <div class="col-6">
+                <div class="component">
+                    <i class="bi bi-file-person-fill fs-4 me-1"></i>
+                    <p class="m-0 fw-bold comp-p">Nombre</p>
+                    <p class="espaciado-usuario size">Edel Mauricio Soto Ballesteros</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="component">
+                    <i class="bi bi-envelope fs-4 me-1"></i>
+                    <p class="m-0 fw-bold comp-p">E-mail</p> <br>
+                    <a href="mailto:edeldev25@gmail.com" class="espaciado-email size">edeldev25@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-column flex-md-row justify-content-center align-items-center py-0 py-md-4">
+            <div class="col-6">
+                <div class="component">
+                    <i class="bi bi-telephone fs-4 me-1"></i>
+                    <p class="m-0 fw-bold comp-p">Telefono</p> <br>
+                    <a href="https://wa.me/528123697420" target="_blank" class="espaciado-phone size">+52 (81) 23-69-74-20</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="component">
+                    <i class="bi bi-linkedin fs-4 me-1"></i>
+                    <p class="m-0 fw-bold comp-p">Linkedln</p> <br>
+                    <a href="https://www.linkedin.com/in/edeldev/" target="_blank" class="espaciado-linkedln size">linkedln/edeldev</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta pt-4">
+            <p class="m-0">No dude en ponerse en contacto conmigo</p>
+            <p>¡VAMOS A CREAR JUNTOS!</p>
+            <button href="#" class="bttn">¡COMENZAMOS!</button>
+        </div>
+</section>
+
+<!-- *** PROYECTOS *** -->
+
+<section class="container-xl py-4 mt-5 proyectos text-center" id="proyectos">
+    <!-- Sobre Mi  Mobile -->
+<div class="mobile">
+    <p class="d-block d-md-none text-center fw-normal">PROYECTOS</p>
+</div>
+
+    <h2 class="pb-3 project">¿Quiéres un proyecto?</h2>
+    <p class="text-proyect pb-4">Cada proyecto es único. Aquí están algunos de mis trabajos.</p>
+
+    <div class="container-proyect cambiar d-flex justify-content-center align-items-center mb-5">
+        <div class="row content justify-content-center align-items-center">
+            <div class="col-md-2">
+                <p>HTML, CSS Y JS</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="build/img/tcea.png" alt="tsea">
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h3 class="mt-2 mt-md-0">Marca de Vinos</h3>
+                <a href="https://tcea.netlify.app" target="_blank">VISITAR SITIO WEB</a>
+                <i class="bi bi-github fs-3 pt-3"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-proyect cambiar2 d-flex justify-content-center align-items-center mb-5">
+        <div class="row content justify-content-center align-items-center">
+            <div class="col-md-2">
+                <p>HTML, CSS Y JS</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="build/img/fiver.png" alt="fiverr">
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h3 class="mt-2 mt-md-0">Clon de Fiverr</h3>
+                <a href="https://fiverclon.netlify.app" target="_blank">VISITAR SITIO WEB</a>
+                <i class="bi bi-github fs-3 pt-3"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-proyect cambiar3 d-flex justify-content-center align-items-center mb-5">
+        <div class="row content justify-content-center align-items-center">
+            <div class="col-md-2">
+                <p>HTML, CSS Y JS</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="build/img/udemy.png" alt="udemy">
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h3 class="mt-2 mt-md-0">Clon de Udemy</h3>
+                <a href="https://udemyclon.netlify.app" target="_blank">VISITAR SITIO WEB</a>
+                <i class="bi bi-github fs-3 pt-3"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-proyect cambiar4 d-flex justify-content-center align-items-center mb-5">
+        <div class="row content justify-content-center align-items-center">
+            <div class="col-md-2">
+                <p>HTML, CSS Y JS</p>
+            </div>
+            <div class="col-md-6">
+                    <img class="img-fluid" src="build/img/portafolio.png" alt="portafolio alternativo">
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                <h3 class="mt-2 mt-md-0">Portafolio Anterior</h3>
+                <a href="https://edeldev.netlify.app" target="_blank">VISITAR SITIO WEB</a>
+                <i class="bi bi-github fs-3 pt-3"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ScrollUp-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="bi bi-arrow-up-circle scrollup__icon"></i>
+</a>
+
+
+    <!--Scroll para que se revelen los elementos de forma suave-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="build/js/main.min.js"></script>
+</body>
+</html>
